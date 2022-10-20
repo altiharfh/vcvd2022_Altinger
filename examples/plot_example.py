@@ -6,7 +6,6 @@ __doc__ = "sample file for ploting method \
 #source: https://www.geeksforgeeks.org/matplotlib-figure-figure-add_axes-in-python/
 
 #required imports
-from cmath import pi
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -23,7 +22,7 @@ def exec_sample_plot_(file_name_out):
   t = np.arange(0.0, 1.0, 0.01)
   s = np.sin(2 * np.pi * t)
   #define plots
-  line, = ax1.plot(t, s, color ="green", lw = 2)
+  ax1.plot(t, s, color ="green", lw = 2)
 
   #add axis label
   ax1.set_xlabel("time")
