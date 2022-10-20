@@ -7,6 +7,8 @@ import sys
 #own modules
 from examples.plot_example import exec_sample_plot_
 
+print("Hello world\n")
+
 #setup arg parser
 arg_parser_ = argparse.ArgumentParser(description="Process some integers.")
 arg_parser_.add_argument("pdf_file_out", type=str, help="filename to plot")
