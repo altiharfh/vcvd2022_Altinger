@@ -12,6 +12,15 @@
       "console": "integratedTerminal",
       "justMyCode": true,
       "args" : ["plot_example.pdf"]
+    },
+    {
+      "name": "Python: main.py",
+      "type": "python",
+      "request": "launch",
+      "program": "main.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args" : ["plot_example.pdf","second arg"]
     }
   ]
 }
