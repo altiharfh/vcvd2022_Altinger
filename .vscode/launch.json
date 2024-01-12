@@ -20,7 +20,17 @@
       "program": "main.py",
       "console": "integratedTerminal",
       "justMyCode": true,
-      "args" : ["plot_example.pdf","second arg"]
+      "args" : ["--pdf_file_out=plot_example.pdf","second_arg"]
+    }
+    ,
+    {
+      "name": "Python: main.py one arg",
+      "type": "python",
+      "request": "launch",
+      "program": "main.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args" : ["second_arg"]
     }
   ]
 }
