@@ -1,0 +1,30 @@
+{
+    "qrcodedata":
+    [
+        {
+            "name": "vscode",
+            "link": "https://code.visualstudio.com/download",
+            "image": "vscode.png"
+        },
+        {
+            "name": "anaconda",
+            "link": "https://anaconda.org/anaconda/python",
+            "image": "anaconda--v2.png"
+        },
+        {
+            "name": "gitrepro",
+            "link": "https://github.com/altiharfh/vcvd2022_Altinger.git",
+            "image": "GitHub-logo.png"
+        },
+        {
+            "name": "pylintcfg",
+            "link": "https://github.com/altiharfh/vcvd2022_Altinger/blob/main/code_guideline/googlePyLintSettings.cfg",
+            "image": "pylint.png"
+        },
+        {
+            "name": "googlecodeguideline",
+            "link": "https://google.github.io/styleguide/pyguide.html",
+            "image": "Google_Developers_icon_2020.png"
+        }
+    ]
+}

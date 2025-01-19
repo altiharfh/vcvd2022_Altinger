@@ -31,6 +31,15 @@
       "console": "integratedTerminal",
       "justMyCode": true,
       "args" : ["second_arg"]
+    },
+    {
+      "name": "Python:create qr codes",
+      "type": "python",
+      "request": "launch",
+      "program": "examples/createqrcode.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args" : [""]
     }
   ]
 }
